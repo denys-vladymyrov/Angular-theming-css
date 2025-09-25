@@ -9,12 +9,6 @@ body, html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-:root {
-  --base: blue;
-  color-scheme: light dark;
 
   --gry-01: oklch(99% 0 0);
   --gry-02: oklch(93% 0 0);
@@ -59,6 +53,12 @@ body, html {
   --n-70: light-dark(var(--gry-08), var(--gry-03));
   --n-80: light-dark(var(--gry-09), var(--gry-02));
   --n-90: light-dark(var(--gry-10), var(--gry-01));
+}
+
+
+:root {
+  --base: rgb(105, 14, 141);
+  color-scheme: light dark;
 }
 
 ::-webkit-scrollbar {
